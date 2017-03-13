@@ -175,6 +175,27 @@ body {
     clear: both;
   }
 
+@media screen and (max-width:980px) {
+  section {
+    width: 50vw;
+    margin-left: 3vw;
+  }
+  h1.nameLogo {
+    margin-left: 3vw;
+  }
+  nav {
+    margin-left: 35vw;
+    float: left;
+  }
+  .widget {
+    margin-left: 5vw;
+    float: left;
+  }
+  img.headshot {
+    height: 50vw;
+  }
+}
+
 @media screen and (max-width:768px) {
 
     .overContainer {
@@ -182,22 +203,23 @@ body {
     }
 
     h1.nameLogo {
-      margin: 20px 20px 0 10%;
+      margin: 20px 20px 0 5vw;;
     }
 
     nav {
-      margin: 40px 10% 0 0;
+      margin: 40px 10vw 0 0;
+      float: right;
     }
 
     section {
-      margin: 30px 10% 20px 10%;
-      width: 80%;
+      margin: 30px 10vw 20px 5vw;
+      width: 80vw;
     }
 
     .widget {
       padding: 10px 20px 0 20px;
-      margin: 30px 10% 20px 10%;
-      width: 80%;
+      margin: 30px 10vw 20px 5vw;
+      width: 80vw;
       float: left;
     }
   }
@@ -243,6 +265,8 @@ body {
   }
 
   section {
+    margin-right: 10vw;
+    margin-left: 5vw;
     overflow: auto;
   }
 
