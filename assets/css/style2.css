@@ -33,7 +33,7 @@ body {
 .overContainer {
   /*background-color: red;*/
   margin: 0 auto;
-  /*width: 960px;*/
+  width: 960px;
   overflow: auto;
 }
 
@@ -172,23 +172,4 @@ button {
 
 .clearfix {
   clear: both;
-}
-
-
-@media screen and (max-width:980px) {
-
-}
-
-@media screen and (max-width:768px) {
-
-}
-
-@media screen and (max-width:640px) {
-  h1.nameLogo {
-    width: 100%;
-    margin: 0;
-    padding: 20px 0 20px 0;
-    float: none;
-    text-align: center;
-  }
 }
